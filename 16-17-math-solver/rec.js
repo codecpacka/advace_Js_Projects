@@ -22,3 +22,6 @@ function sumNumber(n, sum = 0) {
   sum = n + sum(n - 1)
   return sum
 }
+
+a = [3, 5, 3]
+a.findLast()
