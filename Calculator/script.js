@@ -48,8 +48,8 @@ allButtons.forEach((element) => {
       case "equals":
         {
           let output = Calculator.calculate(
-            parseFloat(primaryElement.innerHTML),
             parseFloat(secondaryElement.innerHTML),
+            parseFloat(primaryElement.innerHTML),
             oprationElement.innerHTML
           )
           allClear()
